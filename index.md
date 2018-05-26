@@ -4,7 +4,12 @@ This is my blog on GitHub.
 
 These are my topics :
 
-[genericdatabase : A java library implementing an abstraction layer hiding a H2 database with a generic database scheme to support storing generic data.](genericdatabase.md)
+[genericdatabase](genericdatabase.md)
+
+* A java library 
+* implementing an abstraction layer 
+* to privide a database scheme supporting to store generic data
+* using a H2 database  
 
 [Raspberry Pi / Retropie](raspberrypi.md)
 
