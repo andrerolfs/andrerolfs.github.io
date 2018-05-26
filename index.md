@@ -8,7 +8,8 @@ These are my topics :
 
 * A java library 
 * implementing an abstraction layer 
-* to privide a database scheme supporting to store generic data
+* to provide access to a database 
+* with a datbase scheme for handling generic data
 * using a H2 database  
 
 [Raspberry Pi / Retropie](raspberrypi.md)
