@@ -1,4 +1,4 @@
-# CISystem
+# My Blog
 
 This is my blog on GitHub.
 
@@ -14,4 +14,10 @@ These are my topics :
 
 [Raspberry Pi / Retropie](raspberrypi.md)
 
-Before blogging on GitHub pages my blog was here on [wartbar.de](http://www.wartbar.de/topic_CISYSTEM.html)
+&emsp; I have a bunch Raspberry Pi systems I use for development and for playing Arcade classics.
+
+&emsp; Here you find my notes / blog posts to thesew topics.
+
+[Wartbar / CISystem](http://www.wartbar.de/topic_CISYSTEM.html)
+
+&emsp; Here you find my blog posts about my CISystem project on [wartbar.de](http://www.wartbar.de).
