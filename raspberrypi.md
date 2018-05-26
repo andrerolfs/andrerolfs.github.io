@@ -11,3 +11,11 @@
 &emsp; `sudo apt-get dist-upgrade`
 
 [RPiconfig](https://elinux.org/RPiconfig)
+
+&emsp; Switches I use on my different PI systems configured in `/boot/config.txt` :
+
+&emsp; `hdmi_force_hotplug=1` Use HDMI mode even if no HDMI monitor is detected
+
+&emsp; `hdmi_drive=1` Normal DVI mode (No sound)
+
+&emsp; `hdmi_drive=2` Normal HDMI mode (Sound will be sent if supported and enabled)
