@@ -14,7 +14,7 @@ These are my topics :
 
 [Raspberry Pi / Retropie](raspberrypi.md)
 
-&emsp; I have a bunch Raspberry Pi systems I use for development and for playing Arcade classics.
+&emsp; I have a bunch of Raspberry Pi systems I use for development and for playing Arcade classics.
 
 &emsp; Here you find my notes / blog posts to thesew topics.
 
