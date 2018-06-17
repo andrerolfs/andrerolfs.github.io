@@ -21,3 +21,7 @@ These are my topics :
 [Wartbar / CISystem](http://www.wartbar.de/topic_CISYSTEM.html)
 
 &emsp; Here you find my blog posts about my CISystem project on [wartbar.de](http://www.wartbar.de).
+
+[daily noise](dailynoise.md)
+
+&emsp; Things I found a solution for worth sharing. 
