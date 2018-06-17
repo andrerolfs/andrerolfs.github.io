@@ -16,7 +16,7 @@ These are my topics :
 
 &emsp; I have a bunch of Raspberry Pi systems I use for development and for playing Arcade classics.
 
-&emsp; Here you find my notes / blog posts to thesew topics.
+&emsp; Here you find my notes / blog posts to these topics.
 
 [Wartbar / CISystem](http://www.wartbar.de/topic_CISYSTEM.html)
 
