@@ -9,7 +9,7 @@ same tab, so I don't have to close tabs with content I don't need anymore.
 
 By sending an URL request to Jenkins I can execute scripts, so I just need a link to Jenkins and click it to execute the Jenkins script.
 
-The Jenkins script first executes my tool which creates the HTML file. Then the Jenkins script starts Firefox with the HTML file as parameter, e.g. in Windows it could be `C:\Program Files (x86)\Mozilla Firefox\firefox.exe abc.html`.
+The Jenkins script first executes my tool which creates the HTML file. Then the Jenkins script starts Firefox with the HTML file as parameter, e.g. in Windows it could be `"C:\Program Files (x86)\Mozilla Firefox\firefox.exe" abc.html`.
 
 This would usually open a new tab in Firefox, so I would have to close these tabs manually when there are too much of them.
 
