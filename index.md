@@ -4,6 +4,14 @@ This is my blog on GitHub.
 
 These are my topics :
 
+[htmlframework](https://github.com/andrerolfs/htmlframework)
+
+A small framework to create HTML files in Groovy. 
+
+I have started it on 20180623, it is far from being finished.
+
+You can see how it works by looking at the Spock unit tests.
+
 [genericdatabase](genericdatabase.md)
 
 * A java library 
