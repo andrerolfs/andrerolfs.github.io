@@ -25,3 +25,10 @@ These are my topics :
 [daily noise](dailynoise.md)
 
 &emsp; Things I found a solution for worth sharing. 
+
+&emsp; [20180624 How To Open A Series Of HTML Files In Firefox In The Same Tab Without Using The GUI](https://andrerolfs.github.io/dailynoise.html#20180624-how-to-open-a-series-of-html-files-in-firefox-in-the-same-tab-without-using-the-gui)
+
+&emsp; [20180617 How To Check An Ethernet Cable Works For 1GBit](https://andrerolfs.github.io/dailynoise.html#20180617-how-to-check-an-ethernet-cable-works-for-1gbit)
+
+&emsp; [20180602 How To Connect 2 Rooms Using WiFi](https://andrerolfs.github.io/dailynoise.html#20180602-how-to-connect-2-rooms-using-wifi)
+
