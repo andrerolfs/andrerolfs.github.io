@@ -1,6 +1,6 @@
-# My Blog
+# My Blog On GitHub
 
-This is my blog on GitHub.
+This is my blog for my projects on [https://github.com/andrerolfs](https://github.com/andrerolfs).
 
 Visit my homepage [wartbar.de](http://www.wartbar.de) for information about me and my blog before using GitHub.
 
