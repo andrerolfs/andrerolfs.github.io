@@ -2,6 +2,8 @@
 
 This is my blog on GitHub.
 
+Visit my homepage [wartbar.de](http://www.wartbar.de) for information about me and my blog before using GitHub.
+
 These are my topics :
 
 [htmlframework](https://github.com/andrerolfs/htmlframework)
