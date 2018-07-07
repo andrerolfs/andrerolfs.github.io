@@ -36,6 +36,8 @@ You can see how it works by looking at the Spock unit tests.
 
 &emsp; Things I found a solution for worth sharing. 
 
+&emsp; [20180707 HTML Framework In Groovy For Creating Tables](https://andrerolfs.github.io/dailynoise.html#20180707-html-framework-in-groovy-for-creating-tables)
+
 &emsp; [20180624 How To Open A Series Of HTML Files In Firefox In The Same Tab Without Using The GUI](https://andrerolfs.github.io/dailynoise.html#20180624-how-to-open-a-series-of-html-files-in-firefox-in-the-same-tab-without-using-the-gui)
 
 &emsp; [20180617 How To Check An Ethernet Cable Works For 1GBit](https://andrerolfs.github.io/dailynoise.html#20180617-how-to-check-an-ethernet-cable-works-for-1gbit)
