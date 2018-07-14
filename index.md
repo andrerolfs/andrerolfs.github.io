@@ -10,11 +10,11 @@ These are my topics :
 
 &emsp; Problems where I have found a solution for or just things worth mentioning : 
 
-&emsp; [20180714 My First Contribution On Stacktrace : ](https://stackoverflow.com/questions/18010286/adding-multiple-xml-elements-containers-dynamically-using-xml-markupbuilder-in-g/51337530#51337530)
+&emsp; [20180714 My First Contribution On Stacktoverflow : ](https://stackoverflow.com/questions/18010286/adding-multiple-xml-elements-containers-dynamically-using-xml-markupbuilder-in-g/51337530#51337530)
 <br/>
 &emsp; [Adding multiple XML elements/containers dynamically using XML MarkupBuilder in Groovy](https://stackoverflow.com/questions/18010286/adding-multiple-xml-elements-containers-dynamically-using-xml-markupbuilder-in-g/51337530#51337530)
 
-&emsp; [20180714 Me On Stacktrace](https://stackoverflow.com/users/10079624/andre-rolfs?tab=profile)
+&emsp; [20180714 Me On Stacktoverflow](https://stackoverflow.com/users/10079624/andre-rolfs?tab=profile)
 
 &emsp; [20180707 HTML Framework In Groovy For Creating Tables](https://andrerolfs.github.io/dailynoise.html#20180707-html-framework-in-groovy-for-creating-tables)
 
