@@ -1,3 +1,5 @@
+{: include menu.md }
+
 # daily noise
 
 Here I share my experiences about small problems where I have found solutions working for me.
