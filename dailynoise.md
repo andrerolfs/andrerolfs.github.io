@@ -1,4 +1,4 @@
-{: include menu.md }
+{% include_relative  menu.md %}
 
 # daily noise
 
