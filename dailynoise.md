@@ -17,12 +17,12 @@ You get the menu by
 2. write into the menu file the markdown code you want to use as menu
 3. include `{` `% include_relative menufile.md %` `}` where you want to integrate this menu code
 
-You get the theme by clicking to `Settings` in your repository, click `change theme`and select one.
+You get the theme by clicking to `Settings` in your repository, click `change theme` and select one.
 This changes the file `_config.yml`.
 
-I have chosen the midnight theme, the tool has added this code in my `_config.yml` :
+I have chosen the hacker theme, the tool has added this code in my `_config.yml` :
 
-    theme: jekyll-theme-midnight
+    theme: jekyll-theme-hacker
     
 This works since it is an official theme and the Jekyll framework knows how to get from this configuration 
 to this offical theme.
