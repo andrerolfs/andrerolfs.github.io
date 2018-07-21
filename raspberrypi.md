@@ -1,3 +1,5 @@
+{% include_relative  menu.md %}
+
 # My Links For Raspberry Pi
 
 [Wartbar.de / My blog posts about Raspberry Pi](http://www.wartbar.de/topic_RASPBERRY_PI.html)
