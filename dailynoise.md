@@ -20,8 +20,9 @@ The example for `<table/>` is :
     table.addCell("World 1")
     table.addCell(new HtmlA("lo","http://hel"))
     table.addCell("World 2")
-    String output = HtmlTooling.htmlText( table, 
-                                          "/Users/amos/github/htmlframework/css/divtable.css")
+    String output = HtmlTooling.htmlText( 
+                        table, 
+                        "/Users/amos/github/htmlframework/css/divtable.css")
 ```
 
 ## 20180624 How To Open A Series Of HTML Files In Firefox In The Same Tab Without Using The GUI
