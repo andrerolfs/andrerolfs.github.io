@@ -1,3 +1,5 @@
+{% include_relative  menu.md %}
+
 # A GenericDatabase For CISystem
 
 As mentioned I want to use a database for logging and data exchange in CISystem.
