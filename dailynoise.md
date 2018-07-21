@@ -13,9 +13,9 @@ so I don't have to repeat myself with linking.
 
 You get the menu by 
 
-1. creating a file like `menu.md` in your pages repo root directory
+1. creating a file like `menufile.md` in your pages repo root directory
 2. write into the menu file the markdown code you want to use as menu
-3. include ```{% include_relative menu.md %}``` where you want to integrate this menu code
+3. include ```{% include_relative menufile.md %}``` where you want to integrate this menu code
 
 You get the theme by clicking to `Settings` in your repository, click `change theme`and select one.
 This changes the file `_config.yml`.
