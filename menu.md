@@ -2,5 +2,5 @@
 * [daily noise](https://andrerolfs.github.io/dailynoise.html)
 * [htmlframework](https://github.com/andrerolfs/htmlframework)
 * [genericdatabase](https://andrerolfs.github.io/genericdatabase.html)
-* [https://andrerolfs.github.io/raspberrypi.html](Raspberry Pi / Retropie)
+* [Raspberry Pi / Retropie](https://andrerolfs.github.io/raspberrypi.html)
 * [Wartbar / CISystem](http://www.wartbar.de/topic_CISYSTEM.html)
