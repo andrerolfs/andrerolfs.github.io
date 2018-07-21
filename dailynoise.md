@@ -1,22 +1,10 @@
 {% include_relative  menu.md %}
 
-<br/>
-<br/>
-
 # daily noise
-
-<br/>
-<br/>
 
 Here I share my experiences about small problems where I have found solutions working for me.
 
-<br/>
-<br/>
-
 ## 20180721 Theme And Menu On GitHub Pages
-
-<br/>
-<br/>
 
 I have found out how to configure a theme and have a menu on my GitHub pages.
 
@@ -42,13 +30,7 @@ to this offical theme.
 I have read you can configure any other user repo providing themes bye using `remote_theme: owner/name` like
 explained in [The GitHub Blog](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) but I did not test this.
 
-<br/>
-<br/>
-
 ## 20180707 HTML Framework In Groovy For Creating Tables
-
-<br/>
-<br/>
 
 I have spent some time on my [HTML framework](https://github.com/andrerolfs/htmlframework). 
 
@@ -71,13 +53,7 @@ The example for `<table/>` is :
                         "/Users/amos/github/htmlframework/css/divtable.css")
 ```
 
-<br/>
-<br/>
-
 ## 20180624 How To Open A Series Of HTML Files In Firefox In The Same Tab Without Using The GUI
-
-<br/>
-<br/>
 
 I want to create debug output as HTML files and then automatically load these html files in Firefox, but always use the
 same tab, so I don't have to close tabs with content I don't need anymore.
@@ -114,13 +90,7 @@ use Jenkins for two things :
 
 Yes, this may be slower than a real web application using a database and yes, the HTML pages will never look as nice as pages created with a professional framework, but I don't need to build any binaries and can adapt the code for creating the debug information and writing it to html on-the-fly while debugging.
 
-<br/>
-<br/>
-
 ## 20180617 How To Check An Ethernet Cable Works For 1GBit
-
-<br/>
-<br/>
 
 I want to connect all my devices in my living room with ethernet cables. I have a box full of cables I have collected over the
 years, but about half of them just say Cat5 or only numbers telling you about their physical specification but not if they work for
@@ -140,13 +110,7 @@ This is my setup :
 FYI : You have to bind `iperf` to the network adapters to tell `iperf` which network adapters you use for what. Then telling
 the client the IP address of the server tells `iperf` which route to measure. 
 
-<br/>
-<br/>
-
 ## 20180602 How To Connect 2 Rooms Using WiFi 
-
-<br/>
-<br/>
 
 My telephone connection is in the corridor, all my tethered devices are in the living room and there is no chance connecting 
 corridor and living room with a cable.
