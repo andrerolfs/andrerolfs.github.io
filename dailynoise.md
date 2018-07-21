@@ -6,6 +6,11 @@ Here I share my experiences about small problems where I have found solutions wo
 
 ## 20180721 Theme And Menu On GitHub Pages
 
+<br/>
+<br/>
+<br/>
+<br/>
+
 I have found out how to configure a theme and have a menu on my GitHub pages.
 
 Menu means for me to have a file included in every other file which holds some links, 
