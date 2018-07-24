@@ -2,7 +2,7 @@
 
 # daily noise - My Blog
 
-Here I share my experiences about small problems where I have found solutions working for me.
+Here I share my experiences about small problems for which I have found solutions working for me.
 
 {% include_relative 20180721_Theme_And_Menu_On_GitHub_Pages.md %}
 
