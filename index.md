@@ -1,14 +1,12 @@
-# My Blog On GitHub
+# My Projects On GitHub
 
-This is my blog for my projects on [https://github.com/andrerolfs](https://github.com/andrerolfs).
+These are my projects on [https://github.com/andrerolfs](https://github.com/andrerolfs).
 
-Visit my homepage [wartbar.de](http://www.wartbar.de) for information about me and my blog before using GitHub.
+Visit my homepage [wartbar.de](http://www.wartbar.de) for information about me and my projects.
 
-These are my topics :
+[daily noise - My Blog](dailynoise.md)
 
-[daily noise](dailynoise.md)
-
-&emsp; Problems where I have found a solution for or just things worth mentioning : 
+&emsp; Problems where I have found a solution for or just things worth mentioning.
 
 [htmlframework](https://github.com/andrerolfs/htmlframework)
 
