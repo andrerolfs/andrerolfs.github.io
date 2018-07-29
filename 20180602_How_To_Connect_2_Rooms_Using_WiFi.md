@@ -1,3 +1,5 @@
+{% include_relative menu.md %}
+
 ## 20180602 How To Connect 2 Rooms Using WiFi
 
 My telephone connection is in the corridor, all my tethered devices are in the living room and there is no chance connecting

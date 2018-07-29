@@ -1,3 +1,5 @@
+{% include_relative menu.md %}
+
 ## 20180617 How To Check An Ethernet Cable Works For 1GBit
 
 I want to connect all my devices in my living room with ethernet cables. I have a box full of cables I have collected over the
