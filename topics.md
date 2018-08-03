@@ -6,6 +6,10 @@
 
 [20180729 My Blog Tools](20180729_My Blog_Tools.md)
 
+## CISYSTEM
+
+[20180802 CISystem Requirement Specification 2018 Update](20180802_CISystem_Requirement_Specification_2018_Update.md)
+
 ## ETHERNET
 
 [20180617 How To Check An Ethernet Cable Works For 1GBit](20180617_How_To_Check_An_Ethernet_Cable_Works_For_1GBit.md)
