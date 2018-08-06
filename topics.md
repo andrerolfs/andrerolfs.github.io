@@ -16,6 +16,8 @@
 
 ## ETHERNET
 
+[20170509 Raspberry Pi static eth0 ad-hoc wlan0](20170509_Raspberry_Pi_static_eth0_ad-hoc_wlan0.md)
+
 [20180617 How To Check An Ethernet Cable Works For 1GBit](20180617_How_To_Check_An_Ethernet_Cable_Works_For_1GBit.md)
 
 ## FIREFOX
@@ -63,5 +65,7 @@
 [20170422 Raspberry Pi](20170422_Raspberry_Pi.md)
 
 [20170426 Raspberry Pi raspi-config](20170426_Raspberry_Pi_raspi-config.md)
+
+[20170509 Raspberry Pi static eth0 ad-hoc wlan0](20170509_Raspberry_Pi_static_eth0_ad-hoc_wlan0.md)
 
 

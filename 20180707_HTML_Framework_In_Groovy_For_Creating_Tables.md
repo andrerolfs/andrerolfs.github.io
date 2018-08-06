@@ -1,6 +1,6 @@
 {% include_relative menu.md %}
 
-## 20180707 HTML Framework In Groovy For Creating Tables
+# 20180707 HTML Framework In Groovy For Creating Tables
 
 I have spent some time on my [HTML framework](https://github.com/andrerolfs/htmlframework).
 

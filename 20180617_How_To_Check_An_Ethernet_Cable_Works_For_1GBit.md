@@ -1,6 +1,6 @@
 {% include_relative menu.md %}
 
-## 20180617 How To Check An Ethernet Cable Works For 1GBit
+# 20180617 How To Check An Ethernet Cable Works For 1GBit
 
 I want to connect all my devices in my living room with ethernet cables. I have a box full of cables I have collected over the
 years, but about half of them just say Cat5 or only numbers telling you about their physical specification but not if they work for

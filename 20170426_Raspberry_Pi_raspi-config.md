@@ -1,4 +1,4 @@
-### 20170426 Raspberry Pi raspi-config
+# 20170426 Raspberry Pi raspi-config
 
 This is the first post about how I have set up my Pi.
 

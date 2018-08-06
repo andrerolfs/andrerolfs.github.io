@@ -1,6 +1,6 @@
 {% include_relative menu.md %}
 
-## 20180729 My Blog Tools
+# 20180729 My Blog Tools
 
 I have started with another project on GitHub to get back the look-and-feel
 of my old blog on [Wartbar.de](http://www.wartbar.de) : [blogtools](https://github.com/andrerolfs/blogtools)

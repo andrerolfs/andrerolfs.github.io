@@ -1,6 +1,6 @@
 {% include_relative menu.md %}
 
-## 20180721 Theme And Menu On GitHub Pages
+# 20180721 Theme And Menu On GitHub Pages
 
 I have found out how to configure a theme and have a menu on my GitHub pages.
 

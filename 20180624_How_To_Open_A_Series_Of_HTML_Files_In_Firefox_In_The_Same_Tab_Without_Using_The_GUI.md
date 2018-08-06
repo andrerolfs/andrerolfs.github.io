@@ -1,6 +1,6 @@
 {% include_relative menu.md %}
 
-## 20180624 How To Open A Series Of HTML Files In Firefox In The Same Tab Without Using The GUI
+# 20180624 How To Open A Series Of HTML Files In Firefox In The Same Tab Without Using The GUI
 
 I want to create debug output as HTML files and then automatically load these html files in Firefox, but always use the
 same tab, so I don't have to close tabs with content I don't need anymore.
