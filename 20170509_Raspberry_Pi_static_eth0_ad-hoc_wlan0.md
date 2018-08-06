@@ -1,3 +1,5 @@
+{% include_relative menu.md %}
+
 # 20170509 Raspberry Pi static eth0 ad-hoc wlan0
 
 In my last post I have explained how I did the basic configuration of Jessie light on my Pi.
