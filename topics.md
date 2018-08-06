@@ -2,18 +2,6 @@
 
 # My Topics
 
-## BLOG
-
-[20170422 Raspberry Pi](20170422_Raspberry_Pi.md)
-
-[20170426 Raspberry Pi raspi-config](20170426_Raspberry_Pi_raspi-config.md)
-
-[20170525 Raspberry Pi - Developer Tools 2- Java Gradle Git](20170525_Raspberry_Pi_-_Developer_Tools_2-_Java_Gradle_Git.md)
-
-[20170527 Raspberry Pi - Setup A Retropie To Play C64-Games](20170527_Raspberry_Pi_-_Setup_A_Retropie_To_Play_C64-Games.md)
-
-[20180729 My Blog Tools](20180729_My Blog_Tools.md)
-
 ## CISYSTEM
 
 [20180802 CISystem Requirement Specification 2018 Update](20180802_CISystem_Requirement_Specification_2018_Update.md)
