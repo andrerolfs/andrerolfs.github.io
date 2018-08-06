@@ -220,7 +220,7 @@ You can download them, there is a huge community, just google for it.
 
 To get an idea how a C64 looks like, this is how <b>Bubble Bobble</b> looks like :
 
-<img class="centered" src="pic/bubblebobble.jpg" alt="Bubble Bobble">
+<img class="centered" src="pic/bubblebobble.JPG" alt="Bubble Bobble">
 
 and what I really love is Ghosts'n Goblins :
 
