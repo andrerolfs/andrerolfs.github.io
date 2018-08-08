@@ -23,4 +23,9 @@ Here I share my experiences about small problems for which I have found solution
 [20170420 Develop Software On Ipad](20170420_Develop_Software_On_Ipad.md)<br/><br/>
 [20161230 Human Readable Object Export](20161230_Human_Readable_Object_Export.md)<br/><br/>
 [20161218 H2 For Logging](20161218_H2_For_Logging.md)<br/><br/>
+[20161028 Example For Combining OP And CPP With Wait And Notify](20161028_Example_For_Combining_OP_And_CPP_With_Wait_And_Notify.md)<br/><br/>
+[20161008 Reflection](20161008_Reflection.md)<br/><br/>
+[20160820 Example For Multi Threading And Synchronized Data Structure Acces](20160820_Example_For_Multi_Threading_And_Synchronized_Data_Structure_Acces.md)<br/><br/>
+[20160710 Calling Groovy From Java To Read Json](20160710_Calling_Groovy_From_Java_To_Read_Json.md)<br/><br/>
+[20160626 Sending Objects Via Sockets](20160626_Sending_Objects_Via_Sockets.md)<br/><br/>
 
