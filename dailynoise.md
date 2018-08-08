@@ -20,4 +20,7 @@ Here I share my experiences about small problems for which I have found solution
 [20170509 Raspberry Pi static eth0 ad-hoc wlan0](20170509_Raspberry_Pi_static_eth0_ad-hoc_wlan0.md)<br/><br/>
 [20170426 Raspberry Pi raspi-config](20170426_Raspberry_Pi_raspi-config.md)<br/><br/>
 [20170422 Raspberry Pi](20170422_Raspberry_Pi.md)<br/><br/>
+[20170420 Develop Software On Ipad](20170420_Develop_Software_On_Ipad.md)<br/><br/>
+[20161230 Human Readable Object Export](20161230_Human_Readable_Object_Export.md)<br/><br/>
+[20161218 H2 For Logging](20161218_H2_For_Logging.md)<br/><br/>
 
