@@ -33,3 +33,7 @@ You can see how it works by looking at the Spock unit tests.
 [Wartbar / CISystem](http://www.wartbar.de/topic_CISYSTEM.html)
 
 &emsp; Here you find my blog posts about my CISystem project on [wartbar.de](http://www.wartbar.de).
+
+[Computer Language Comparison](20190316_Coputer_Language_Comparison.md)
+
+My comparison of language features between Groovy, Python, Kotlin and Swift.
