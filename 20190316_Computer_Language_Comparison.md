@@ -19,3 +19,4 @@ Writing down my findings will hopefully be an additional way to fix what I have 
 
 I will not follow any order and please don't expect completeness.
 
+[20190316 Multiple Assignments](20190316_Multiple_Assignments.md)
