@@ -4,7 +4,7 @@
 
 Here I compare the language features of the languages I use or am learning right now.
 
-I writing code in Groovy for some years now since Gradle is currently my main tool at work.
+I write code in Groovy for some years now since Gradle is currently my main tool at work.
 
 I have implemented code in C++ for about 10 years, I think it was enough of this language for some time.
 
@@ -15,7 +15,7 @@ which can take some seconds and makes no sense for a script which needs 1 second
 
 I am learning Kotlin and Swift at the moment with the aim to write Android and IOS apps.
 
-I am writing down my findings as additional way to fix what I have learned and to help others.
+Writing down my findings will hopefully be an additional way to fix what I have learned.
 
 I will not follow any order and please don't expect completeness.
 
