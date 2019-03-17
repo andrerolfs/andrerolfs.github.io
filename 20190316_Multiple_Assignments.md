@@ -34,7 +34,7 @@ You can return tuples from functions :
 
 My problem was : Do I have to create unused variables if I don't need the complete tuple?
 
-The answer is : Yes, you cannot omit receiving single variables, the underscore '_' is only a fake, it is a real variable and Intellij Idea still warns me, that '_' is unused if I comment out the last two lines :
+The answer is : Yes, you cannot omit receiving single variables, the underscore '_' is only a fake, it is a real variable and Intellij Idea still warns me '_' is unused if I comment out the last two lines :
 
     def f() {
       return [1,2,3]
