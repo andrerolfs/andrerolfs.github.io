@@ -2,6 +2,17 @@
 
 # 20190316 Multiple Assignments
 
+I stumbled over this problem when writing code in Groovy, where I return a tuple from a function.
+
+You can access the single values of the tuple by destructuring it, but Intellij Idea will inform you about unused variables
+if you don't use all values of the tuple.
+
+I wanted to know if there is a way to receive only parts of the tuple.
+
+I still lear how this works.
+
+While writing the code examples I understood I also have to check and compare which languages support tuples with mixed types...
+
 ## Groovy
 
 You can return tuples from functions :
@@ -69,7 +80,7 @@ Here it works with the underscore '_', you cannot compile `print(_)` :
 
 ## Python
 
-The the same problem as with Groovy :
+The the same problem as with Groovy, the underscore '_' works like a real variable  :
 
     def f():
         return 1, 2, 3
@@ -94,3 +105,28 @@ The the same problem as with Groovy :
     
     assert f == 3
     print(f)
+
+## Kotlin
+
+The same as for Swift, it really works, you cannot reference the underscore '_' :
+
+	fun f(): Array<Int> {
+	    return arrayOf(1,2,3)
+	}
+
+	fun main(args: Array<String>) {
+	    val (a,b,c) = f()
+	    assert(a == 1)
+	    println(a)
+	    assert(b == 2)
+	    println(b)
+	    assert(c == 3)
+	    println(c)
+
+	    val (d, _, e) = f()
+	    assert(d == 1)
+	    println(d)
+	    assert(e == 3)
+	    println(e)
+
+	}
