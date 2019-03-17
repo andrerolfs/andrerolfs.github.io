@@ -9,7 +9,7 @@ if you don't use all values of the tuple.
 
 I wanted to know if there is a way to receive only parts of the tuple.
 
-I still lear how this works.
+I still learn how this works.
 
 While writing the code examples I understood I also have to check and compare which languages support tuples with mixed types...
 
