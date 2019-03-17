@@ -34,7 +34,7 @@ You can return tuples from functions :
 
 My problem was : Do I have to create unused variables if I don't need the complete tuple?
 
-The answer is : Yes, you cannot omit receiving single variables, the underscore '_' is only a fake, it is a real variable.
+The answer is : Yes, you cannot omit receiving single variables, the underscore '_' is only a fake, it is a real variable and Intellij Idea still warns me, that '_' is unused if I comment out the last two lines :
 
     def f() {
       return [1,2,3]
@@ -48,8 +48,8 @@ The answer is : Yes, you cannot omit receiving single variables, the underscore 
     assert e == 3
     println e
     
-	assert _ == 2
-	println _
+    assert _ == 2
+    println _
     
 ## Swift
 
@@ -128,5 +128,4 @@ The same as for Swift, it really works, you cannot reference the underscore '_' 
 	    println(d)
 	    assert(e == 3)
 	    println(e)
-
 	}
