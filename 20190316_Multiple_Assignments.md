@@ -80,7 +80,7 @@ Here it works with the underscore '_', you cannot compile `print(_)` :
 
 ## Python
 
-The the same problem as with Groovy, the underscore '_' works like a real variable  :
+The same problem as with Groovy, the underscore '_' works like a real variable  :
 
     def f():
         return 1, 2, 3
