@@ -10,9 +10,9 @@ Here I compare these aspects :
 
 ## Groovy
 
-* Arrays and lists are the same, they are declared with `[]`
-* Since there is no difference between lists and arrays, you can add new elements to arrays
-* You can iterate over arrays and lists using `for-loop` where you can break and the 'each' method, where you cannot break
+* Arrays and lists are the same in Groovy, they are declared with `[]`, Groovy itself has no pure arrays
+* Since there are only lists, you can add new elements to arrays
+* You can iterate over lists using `for-loop` where you can break and the 'each' method, where you cannot break
 
     def words = ["Hello", ",", " ", "World", "!"]
     
