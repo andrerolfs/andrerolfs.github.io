@@ -14,24 +14,24 @@ Here I compare these aspects :
 * Since there are only lists, you can add new elements to arrays
 * You can iterate over lists using `for-loop` where you can break and the 'each' method, where you cannot break
 
-    def words = ["Hello", ",", " ", "World", "!"]
-    
-    println ""
-    println "Sentence :"
-    for (String w : words) {
-        print w
-    }
-    
-    words.add(" ")
-    words.add("How")
-    words.add(" ")
-    words.add("are")
-    words.add(" ")
-    words.add("you")
-    words.add("?")
-    
-    println ""
-    println "Sentence :"
-    words.each { w ->
-        print w
-    }
+      def words = ["Hello", ",", " ", "World", "!"]
+      
+      println ""
+      println "Sentence :"
+      for (String w : words) {
+          print w
+      }
+      
+      words.add(" ")
+      words.add("How")
+      words.add(" ")
+      words.add("are")
+      words.add(" ")
+      words.add("you")
+      words.add("?")
+      
+      println ""
+      println "Sentence :"
+      words.each { w ->
+          print w
+      }
