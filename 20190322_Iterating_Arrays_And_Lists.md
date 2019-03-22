@@ -12,7 +12,7 @@ Here I compare these aspects :
 
 * Arrays and lists are the same, they are declared with `[]`
 * Since there is no difference between lists and arrays, you can add new elements to arrays
-* You can iterate over arrays and lists using `for-loop`where you can break and the 'each' method, where you cannot break
+* You can iterate over arrays and lists using `for-loop` where you can break and the 'each' method, where you cannot break
 
     def words = ["Hello", ",", " ", "World", "!"]
     
