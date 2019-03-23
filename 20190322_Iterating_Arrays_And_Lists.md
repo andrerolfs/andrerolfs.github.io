@@ -54,3 +54,37 @@ Here I compare these aspects :
 
       for w in words:
           print w
+
+## Kotlin
+
+* In Kotlin Arrays can be created with `arrayOf` 
+* Arrays in Kotlin have a fixed size, you cannot add elements to it
+* With `listOf` you can create immutable lists where you cannot add elements, too
+* You need to use a `MutableList` to add elements to it
+
+      var words1 = listOf("Hello", " ", "World", "!")
+      var words2 = arrayOf("Hello", " ", "World", "!")
+       
+      val iterator = words2.iterator()
+      
+      for (w in words1) {
+          print(w)
+      }
+      
+      iterator.forEach {w ->
+          print(w)
+      }
+        
+      var words3 : MutableList<String> = mutableListOf("Hello", " ", "World", "!")
+      
+      words3.add("How")
+      words3.add(" ")
+      words3.add("are")
+      words3.add(" ")
+      words3.add("you ")
+      words3.add("?")
+      
+      for (w in words3) {
+          print(w)
+      }
+      
