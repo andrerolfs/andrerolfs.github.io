@@ -57,7 +57,7 @@ Here I compare these aspects :
 
 ## Kotlin
 
-* In Kotlin Arrays can be created with `arrayOf` 
+* In Kotlin Arrays can be created with `arrayOf`
 * Arrays in Kotlin have a fixed size, you cannot add elements to it
 * With `listOf` you can create immutable lists where you cannot add elements, too
 * You need to use a `MutableList` to add elements to it
