@@ -14,7 +14,7 @@ Here I compare these aspects :
 ## Groovy
 
 * In Groovy you can only pass closures and not functions as function arguments
-* You can pass functions as closures as function arguments by using the `&`operator though
+* You can pass functions as closures as function arguments by using the `&` operator though
 * Groovy does not allow inner functions, but inner closures are allowed
 
       static def closureUserFunction(c, x1, y1, z1) {
