@@ -1,5 +1,7 @@
 {% include_relative menu.md %}
 
+[Back To : Computer Language Comparison](20190316_Computer_Language_Comparison.md)
+
 # 20190316 Multiple Assignments
 
 I stumbled over this problem when writing code in Groovy, where I return a tuple from a function.
