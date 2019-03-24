@@ -10,7 +10,7 @@ Here I compare these aspects :
 
 ## Groovy
 
-* Arrays and lists are the same in Groovy, they are declared with `[]`, Groovy itself has no Array datatype
+* Arrays and lists are the same in Groovy, they are declared with `[]`, Groovy itself has no array datatype
 * Since there are only lists, you can `add` new elements to arrays
 * You can iterate over lists using the `for-loop` where you can break and the 'each' method, where you cannot break
 
@@ -38,7 +38,7 @@ Here I compare these aspects :
        
 ## Python
 
-* Arrays and lists are the same in Python, they are declared with `[]`, Python itself has no Array datatype
+* Arrays and lists are the same in Python, they are declared with `[]`, Python itself has no array datatype
 * Python has an `Array` module for maths operations which can only work with numbers (not shown here) 
 * Since there are only lists, you can `append` new elements to arrays
 * You can iterate over lists using the `for-loop` and you can implement your own `foreach-function`(shown later)
@@ -57,7 +57,7 @@ Here I compare these aspects :
 
 ## Kotlin
 
-* In Kotlin Arrays can be created with `arrayOf`
+* In Kotlin arrays can be created with `arrayOf`
 * Arrays in Kotlin have a fixed size, you cannot add elements to it
 * With `listOf` you can create immutable lists where you cannot add elements, too
 * You need to use a `MutableList` to add elements to it
@@ -88,3 +88,26 @@ Here I compare these aspects :
           print(w)
       }
       
+## Swift
+
+* In Swift Arrays and Lists are both called `Array`
+* If you declare it `var` it will be a variable list where you can add elements with `append`
+* If you declare it `let`it becomes an array with a constant immutable size
+* Both `for-loop`and `forEach`method are available
+
+      var words = ["Hello", ",", " ", "World", "!"]
+      
+      for w in words {
+          print(w)
+      }
+      
+      words.append("How")
+      words.append(" ")
+      words.append("Are")
+      words.append(" ")
+      words.append("You")
+      words.append("?")
+
+      words.forEach { w in
+          print(w)
+      }
