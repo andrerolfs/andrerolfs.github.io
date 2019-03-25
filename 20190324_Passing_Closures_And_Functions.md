@@ -17,29 +17,32 @@ Here I compare these aspects :
 * You can pass functions as closures as function arguments by using the `&` operator though
 * Groovy does not allow inner functions, but inner closures are allowed
 
-      static def closureUserFunction(c, x1, y1, z1) {
-          c(x1, y1, z1)
-      }
+      class GroovyTest {
       
-      static def closureProviderFunction(x2, y2, z2) {
-          for (i in x2) {
-              println i + " -> " + y2 + " : " + z2
-          }
-      }
-       
-      static def closures() {
-       
-        def myClosure = { x, y, z ->
-          for (i in x) {
-                println i + " -> " + y + " : " + z
-          }
-        }
-        
-        def a = 1..7
-        
-        myClosure(a, "x-value", "y-value")
-        
-        closureUserFunction(myClosure, 2..3, "u-value", "v-value")
-        
-        closureUserFunction(GroovyTest.&closureProviderFunction, 10..13, "a-value", "b-value")
+            static def closureUserFunction(c, x1, y1, z1) {
+                c(x1, y1, z1)
+            }
+
+            static def closureProviderFunction(x2, y2, z2) {
+                for (i in x2) {
+                    println i + " -> " + y2 + " : " + z2
+                }
+            }
+
+            static def closures() {
+
+              def myClosure = { x, y, z ->
+                for (i in x) {
+                      println i + " -> " + y + " : " + z
+                }
+              }
+
+              def a = 1..7
+
+              myClosure(a, "x-value", "y-value")
+
+              closureUserFunction(myClosure, 2..3, "u-value", "v-value")
+
+              closureUserFunction(GroovyTest.&closureProviderFunction, 10..13, "a-value", "b-value")
+            }
       }
