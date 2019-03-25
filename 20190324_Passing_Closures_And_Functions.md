@@ -46,3 +46,35 @@ Here I compare these aspects :
               closureUserFunction(GroovyTest.&closureProviderFunction, 10..13, "a-value", "b-value")
             }
       }
+
+## Swift
+
+In Swift functions are first class citizens, you can do more or less everything with them.
+
+For this reason I use some more examples and split the aspects these examples try to show.
+
+* Swift supports inner functions
+* You can use functions as return type by declaring the returned functions signature with `() -> Type1, Type2, ...`
+* You can pass functions as argument by declaring the returned functions signature with `() -> Type1, Type2, ...`
+
+
+      func greeter() -> (Int) -> Void {
+
+          func innerGreeter(innerCounter : Int) {
+              print(innerCounter.description + ". innerGreeter : Greetings from within!")
+          }
+
+          print("Greeter : Hello World!")
+          innerGreeter(innerCounter : 1)
+          return innerGreeter
+      }
+
+      func remoteGreeter(passedFunction : (Int) -> Void, counter : Int) {
+          passedFunction(counter)
+      }
+
+      let returnedInnerGreeter = greeter()
+
+      returnedInnerGreeter(3)
+
+      remoteGreeter(passedFunction : returnedInnerGreeter, counter : 4)
