@@ -54,9 +54,10 @@ In Swift functions are first class citizens, you can do more or less everything 
 For this reason I use some more examples and split the aspects these examples try to show.
 
 * Swift supports inner functions
-* You can use functions as return type by declaring the returned functions signature with `() -> Type1, Type2, ...`
-* You can pass functions as argument by declaring the returned functions signature with `() -> Type1, Type2, ...`
-
+* You can use functions as return type by declaring the returned functions signature with 
+      () -> Type1, Type2, ...
+* You can pass functions as argument by declaring the returned functions signature with 
+      () -> Type1, Type2, ...
 
       func greeter() -> (Int) -> Void {
 
