@@ -55,9 +55,14 @@ For this reason I use some more examples and split the aspects these examples tr
 
 * Swift supports inner functions
 * You can use functions as return type by declaring the returned functions signature with 
+
       () -> Type1, Type2, ...
+
 * You can pass functions as argument by declaring the returned functions signature with 
+
       () -> Type1, Type2, ...
+      
+Example :
 
       func greeter() -> (Int) -> Void {
 
