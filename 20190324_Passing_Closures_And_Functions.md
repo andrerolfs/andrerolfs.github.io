@@ -106,3 +106,26 @@ Example :
       let innerClosure = myClosure("X","Y")
 
       innerClosure("X","Y")
+
+### Function Returning A Closure
+
+* In Swift functions can return closures
+
+Example :
+
+      func aFunctionToGetAClosure() -> (String, String)->() {
+
+          let myClosure : (String, String) -> (String, String)->()  = { (a, b) -> (String, String)->() in
+              print("in order : " + a + " -> " + b)
+
+              let myInnerClosure : (String, String) -> () = { (u,v) in
+                  print("reverse : " + v + " <- " + u)
+              }
+
+              return myInnerClosure
+          }
+          return myClosure("X1", "Y1")
+      }
+
+      let aClosureFromWithin = aFunctionToGetAClosure()
+      aClosureFromWithin("X2","Y2")
