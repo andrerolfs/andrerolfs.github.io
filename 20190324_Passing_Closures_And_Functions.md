@@ -53,6 +53,8 @@ In Swift functions are first class citizens, you can do more or less everything 
 
 For this reason I use some more examples and split the aspects these examples try to show.
 
+### Inner Functions
+
 * Swift supports inner functions
 * You can use functions as return type by declaring the returned functions signature with 
 
@@ -84,3 +86,23 @@ Example :
       returnedInnerGreeter(3)
 
       remoteGreeter(passedFunction : returnedInnerGreeter, counter : 4)
+
+### Inner Closure
+
+* In Swift a closure can have inner closures and return them 
+
+Example :
+
+      let myClosure : (String, String) -> (String, String)->()  = { (a, b) -> (String, String)->() in
+          print("in order : " + a + " -> " + b)
+
+          let myInnerClosure : (String, String) -> () = { (u,v) in
+              print("reverse : " + v + " <- " + u)
+          }
+
+          return myInnerClosure
+      }
+
+      let innerClosure = myClosure("X","Y")
+
+      innerClosure("X","Y")
