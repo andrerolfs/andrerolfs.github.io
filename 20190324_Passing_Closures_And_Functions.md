@@ -87,7 +87,7 @@ Example :
 
       remoteGreeter(passedFunction : returnedInnerGreeter, counter : 4)
 
-### Inner Closure
+### Inner Closures
 
 * In Swift a closure can have inner closures and return them 
 
@@ -107,9 +107,10 @@ Example :
 
       innerClosure("X","Y")
 
-### Function Returning A Closure
+### Function Returning A Closure And Function With Closure As Parameter
 
 * In Swift functions can return closures
+* In Swift functions can have closures as parameters
 
 Example :
 
@@ -129,3 +130,9 @@ Example :
 
       let aClosureFromWithin = aFunctionToGetAClosure()
       aClosureFromWithin("X2","Y2")
+
+      func aFunctionWithClosureAsParameter(aClosureParameter:(String, String)->()) {
+          aClosureParameter("X3","Y3")
+      }
+
+      aFunctionWithClosureAsParameter(aClosureParameter: aClosureFromWithin)
