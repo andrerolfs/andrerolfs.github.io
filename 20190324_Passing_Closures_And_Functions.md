@@ -136,3 +136,23 @@ Example :
       }
 
       aFunctionWithClosureAsParameter(aClosureParameter: aClosureFromWithin)
+
+### Closure Can Have States
+
+* In Swift a closure captures the state of surrounding variables
+
+Example :
+
+      func aFunctionToCreateAClosureWithState(state : Int) -> ()->Int {
+          return {
+              return state
+          }
+      }
+
+      let one = aFunctionToCreateAClosureWithState(state: 1)
+      let two = aFunctionToCreateAClosureWithState(state: 2)
+      let three = aFunctionToCreateAClosureWithState(state: 3)
+
+      print("numbers : " + String(one()) + ", " + String(two()) + ", ", String(three()))
+      assert(one() + two() + three() == 6)
+      
