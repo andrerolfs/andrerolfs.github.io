@@ -186,3 +186,29 @@ Example :
 
           z("Hallo Welt 5!\n")
       }
+
+### Return Inner Closure And Capture States
+
+* Kotlin can create innerclosures to return them
+* These closure can capture the states of outer variables
+
+Example :
+
+      fun creator(input : String) : (String) -> Unit {
+          val aClosure = { a : String ->
+              print(a + " : " + input + "\n")
+          }
+
+          return aClosure
+      }
+
+      fun main(args: Array<String>) {
+
+          val aPrinter = creator("Input A")
+          val bPrinter = creator("Input B")
+          val cPrinter = creator("Input C")
+
+          aPrinter("First")
+          bPrinter("Second")
+          cPrinter("Third")
+      }
