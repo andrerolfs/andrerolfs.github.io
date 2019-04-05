@@ -156,3 +156,33 @@ Example :
       print("numbers : " + String(one()) + ", " + String(two()) + ", ", String(three()))
       assert(one() + two() + three() == 6)
       
+## Kotlin
+
+### Passing And Returning Functions And Closures
+
+* In Kotlin functions can have other functions and closures as parameters, with the same signature
+* Kotlin functions can return functions and closures
+
+Example :
+
+      fun caller(input : String, f : (String) -> Unit) : (String) -> Unit {
+          f(input)
+          return f
+      }
+
+      fun main(args: Array<String>) {
+
+          val x = caller("Hallo Welt 1!\n", ::print)
+
+          x("Hallo Welt 2!\n")
+
+          val y = { input : String ->
+              print(input)
+          }
+
+          y("Hallo Welt 3!\n")
+
+          val z = caller("Hallo Welt 4!\n", x)
+
+          z("Hallo Welt 5!\n")
+      }
