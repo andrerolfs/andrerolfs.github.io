@@ -189,12 +189,12 @@ Example :
 
 ### Return Inner Closure And Capture States
 
-* Kotlin can create innerclosures to return them
+* Kotlin can create inner closures to return them
 * These closure can capture the states of outer variables
 
 Example :
 
-      fun creator(input : String) : (String) -> Unit {
+      fun creatorForClosure(input : String) : (String) -> Unit {
           val aClosure = { a : String ->
               print(a + " : " + input + "\n")
           }
@@ -204,11 +204,37 @@ Example :
 
       fun main(args: Array<String>) {
 
-          val aPrinter = creator("Input A")
-          val bPrinter = creator("Input B")
-          val cPrinter = creator("Input C")
+          val aPrinter = creatorForClosure("Input A")
+          val bPrinter = creatorForClosure("Input B")
+          val cPrinter = creatorForClosure("Input C")
 
           aPrinter("First")
           bPrinter("Second")
           cPrinter("Third")
+      }
+
+### Return Inner Function And Capture States
+
+* Kotlin can create inner functions and return them
+* These functions can capture the states of outer variables
+
+Example :
+
+      fun creatorForFunction(input : String) : (String) -> Unit {
+          fun createdFunction(a : String) {
+              print(a + " : " + input + "\n")
+          }
+
+          return ::createdFunction
+      }
+
+      fun main(args: Array<String>) {
+
+          val uPrinter = creatorForFunction("Input U")
+          val vPrinter = creatorForFunction("Input V")
+          val wPrinter = creatorForFunction("Input W")
+
+          uPrinter("Fourth")
+          vPrinter("Fifth")
+          wPrinter("Sixth")
       }
