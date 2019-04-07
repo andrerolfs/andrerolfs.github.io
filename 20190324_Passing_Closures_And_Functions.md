@@ -244,7 +244,7 @@ Example :
 * Python supports creation and passing of functions and lambdas
 * Both capture the states of outer variables
 * A lambda is a closure, which supports only one expression, e.g. : a + b
-* Please read here on [Stackoverlow](https://stackoverflow.com/questions/2970858/why-doesnt-print-work-in-a-lambda) why you need to use "the back-ported print function if you are using the latest Python 2.x"
+* Please read here on [Stackoverlow](https://stackoverflow.com/questions/2970858/why-doesnt-print-work-in-a-lambda) why you need to use *the back-ported print function if you are using the latest Python 2.x*
 
 Example :
 
