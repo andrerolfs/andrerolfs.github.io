@@ -36,7 +36,7 @@ You can return tuples from functions :
 
 My problem was : Do I have to create unused variables if I don't need the complete tuple?
 
-The answer is : Yes, you cannot omit receiving single variables, the underscore '_' is only a fake, it is a real variable and Intellij Idea still warns me '_' is unused if I comment out the last two lines :
+The answer is : Yes, you cannot omit receiving single variables, the underscore is only a fake, it is a real variable and Intellij Idea still warns me the underscore is unused if I comment out the last two lines :
 
     def f() {
       return [1,2,3]
@@ -55,7 +55,7 @@ The answer is : Yes, you cannot omit receiving single variables, the underscore 
     
 ## Swift
 
-Here it works with the underscore '_', you cannot compile `print(_)` :
+Here it works with the underscore, you cannot compile `print(_)` :
 
     func f() -> (Int, Int, Int){
         return (1,2,3)
@@ -82,7 +82,7 @@ Here it works with the underscore '_', you cannot compile `print(_)` :
 
 ## Python
 
-The same problem as with Groovy, the underscore '_' works like a real variable  :
+The same problem as with Groovy, the underscore works like a real variable  :
 
     def f():
         return 1, 2, 3
@@ -110,7 +110,7 @@ The same problem as with Groovy, the underscore '_' works like a real variable  
 
 ## Kotlin
 
-The same as for Swift, it really works, you cannot reference the underscore '_' :
+The same as for Swift, it really works, you cannot reference the underscore :
 
 	fun f(): Array<Int> {
 	    return arrayOf(1,2,3)
