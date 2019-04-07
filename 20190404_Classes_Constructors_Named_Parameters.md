@@ -12,6 +12,7 @@ Here I compare these aspects :
 ## Groovy
 
 * If the first parameter is a map, then named parameters are supported as elements of this map 
+* If you omit these named parameters, the map will be null
 
       class GT2 {
 
@@ -24,9 +25,14 @@ Here I compare these aspects :
           }
 
           String f(aMap) {
-              return s + i + " : " + aMap.otherInt + aMap.otherString + "\n"
+              if (aMap == null) {
+                  return s + i + " : -\n"
+              } else {
+                  return s + i + " : " + aMap.otherInt + aMap.otherString + "\n"
+              }
           }
       }
       
       GT2 gt2 = new GT2(anInt:  1, aString : "A")
       print gt2.f(otherInt: 2, otherString: "B")
+      print gt2.f()
