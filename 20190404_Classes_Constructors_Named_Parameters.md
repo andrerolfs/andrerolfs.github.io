@@ -13,6 +13,7 @@ Here I compare these aspects :
 
 * If the first parameter is a map, then named parameters are supported as elements of this map 
 * If you omit these named parameters, the map will be null
+* If there are other parameters after the map, you have to pass at least one named parameter or it will not compile
 
       class GT2 {
 
@@ -31,8 +32,19 @@ Here I compare these aspects :
                   return s + i + " : " + aMap.otherInt + aMap.otherString + "\n"
               }
           }
+          
+          
+          String g(def aMap, i) {
+              if (aMap == null) {
+                  return "output : " + i + "\n"
+              } else {
+                  return "output : " + aMap.otherInt + aMap.otherString + "\n"
+              }
+          }
       }
       
       GT2 gt2 = new GT2(anInt:  1, aString : "A")
       print gt2.f(otherInt: 2, otherString: "B")
       print gt2.f()
+      print gt2.g(otherInt: 3, otherString: "C",101)
+      print gt2.g(otherInt: 4, otherString: "D", lalala : 17, 102)
