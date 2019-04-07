@@ -32,8 +32,7 @@ Here I compare these aspects :
                   return s + i + " : " + aMap.otherInt + aMap.otherString + "\n"
               }
           }
-          
-          
+                    
           String g(def aMap, i) {
               if (aMap == null) {
                   return "output : " + i + "\n"
