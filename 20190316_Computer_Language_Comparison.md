@@ -30,3 +30,5 @@ These are comparisons I have started working on :
 [20190322 Iterating Arrays And Lists](20190322_Iterating_Arrays_And_Lists.md)
 
 [20190324 Passing Closures And Functions](20190324_Passing_Closures_And_Functions.md)
+
+[20190404_Classes, Constructors, Named Parameters](20190404_Classes_Constructors_Named_Parameters.md)
