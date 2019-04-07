@@ -238,3 +238,39 @@ Example :
           vPrinter("Fifth")
           wPrinter("Sixth")
       }
+
+## Python
+
+* Python supports creation and passing of functions and lambdas
+* Both capture the states of outer variables
+* A lambda is a closure, which supports only one expression, e.g. : a + b
+* Please read here on [Stackoverlow](https://stackoverflow.com/questions/2970858/why-doesnt-print-work-in-a-lambda) why you need to use "the back-ported print function if you are using the latest Python 2.x"
+
+Example :
+
+      # must be at the beginning of the file
+      from __future__ import print_function
+      
+      def createFunction(s):
+          def created():
+              print(s + "I come from a function!")
+          return created
+
+      def consumeFunction(f):
+          f()
+
+      x = createFunction("Good morning : ")
+
+      consumeFunction(x)
+
+      def createLambda(s):
+          y = lambda a : a + s
+          z = lambda b : print(b)
+          return (y,z)
+
+      def consumeLambda(q,j):
+          j(q("Good evening : "))
+
+      (u,v) = createLambda("I come from a lambda!")
+
+      consumeLambda(u,v)
