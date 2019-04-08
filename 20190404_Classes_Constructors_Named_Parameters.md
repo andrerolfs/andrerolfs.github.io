@@ -12,6 +12,7 @@ Here I compare these aspects :
 ## Groovy
 
 * If the first parameter is a map, then named parameters are supported as elements of this map 
+* This only works for the first parameter, it does not work for any other position, even if it is a map
 * If you omit these named parameters, the map will be null
 * If there are other parameters after the map, you have to pass at least one named parameter or it will not compile
 
@@ -47,3 +48,19 @@ Here I compare these aspects :
       print gt2.f()
       print gt2.g(otherInt: 3, otherString: "C",101)
       print gt2.g(otherInt: 4, otherString: "D", lalala : 17, 102)
+
+* You can put the named parameters where ever you want
+* If you want to pass an empty map or a not existing map, it must be the first parameter in the function call
+
+      String h(aMap, i, j, k) {
+        if (aMap == null) {
+            return "output : " + i + j + k + "\n"
+        } else {
+            return "output : " + aMap.otherInt + aMap.otherString + i + j + k + "\n"
+        }
+      }
+
+      print gt2.h(101, "17", 307, otherInt: 5, otherString: "e")
+      print gt2.h(101, otherInt: 6, otherString: "f","17", 307 )
+      print gt2.h(101, otherInt: 7, "17", otherString: "g",  307)
+      print gt2.h(null , 101, "17", 307)
