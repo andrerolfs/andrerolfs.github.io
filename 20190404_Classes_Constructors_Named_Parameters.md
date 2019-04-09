@@ -64,3 +64,72 @@ Here I compare these aspects :
       print gt2.h(101, otherInt: 6, otherString: "f","17", 307 )
       print gt2.h(101, otherInt: 7, "17", otherString: "g",  307)
       print gt2.h(null , 101, "17", 307)
+
+## Kotlin
+
+* Kotlin supports primary and secondary constructors plus initializers
+* In this comparison I only use primary constructors
+* Constructors specify if values are constant or variable
+* function parameters seem always to be constants, but I have not investigated this any further yet
+* Both constructors and functions support real named parameters
+* Both constructors and functions support default values
+
+      class K2(val a : Int = 99, val b : String = "Z")
+
+      fun printValues(a : Int = 0, b : String = "a") {
+          print("values : ")
+          print(a)
+          print(b)
+          print("\n")
+      }
+
+      fun main(args: Array<String>) {
+
+          val k21 = K2(1, "A")
+          printValues(k21.a, k21.b)
+          printValues( a = k21.a, b = k21.b)
+          printValues( b = k21.b, a = k21.a)
+          printValues( a = k21.a)
+          printValues( b = k21.b)
+          printValues()
+
+          val k22 = K2( b = "B")
+          printValues(k22.a, k22.b)
+          printValues( a = k22.a, b = k22.b)
+          printValues( b = k22.b, a = k22.a)
+          printValues( a = k22.a)
+          printValues( b = k22.b)
+          printValues()
+
+          val k23 = K2( b = "C", a = 3)
+          printValues(k23.a, k23.b)
+          printValues( a = k23.a, b = k23.b)
+          printValues( b = k23.b, a = k23.a)
+          printValues( a = k23.a)
+          printValues( b = k23.b)
+          printValues()
+
+          val k24 = K2( a = 4)
+          printValues(k24.a, k24.b)
+          printValues( a = k24.a, b = k24.b)
+          printValues( b = k24.b, a = k24.a)
+          printValues( a = k24.a)
+          printValues( b = k24.b)
+          printValues()
+
+          val k25 = K2(5)
+          printValues(k25.a, k25.b)
+          printValues( a = k25.a, b = k25.b)
+          printValues( b = k25.b, a = k25.a)
+          printValues( a = k25.a)
+          printValues( b = k25.b)
+          printValues()
+
+          val k26 = K2( a = 6)
+          printValues(k26.a, k26.b)
+          printValues( a = k26.a, b = k26.b)
+          printValues( b = k26.b, a = k26.a)
+          printValues( a = k26.a)
+          printValues( b = k26.b)
+          printValues()
+      }
