@@ -205,3 +205,64 @@ Here I compare these aspects :
       printValues( a : k26.a)
       printValues( b : k26.b)
       printValues()
+
+## Python
+
+* Python supports named parameters in but you don't need to use the names
+* When using named parameters you may change the order of parameters
+* There is no difference between function and constructor regarding named parameters 
+
+      class K2:
+
+          def __init__(self, x = 1, y = "A"):
+              self.a = x
+              self.b = y
+
+      def printValues(a = 7,b = "Q"):
+          print(a)
+          print(b)
+
+      k21 = K2()
+      printValues(k21.a, k21.b)
+      printValues(a = k21.a, b = k21.b)
+      printValues(b = k21.b, a = k21.a)
+      printValues(b = k21.b, a = k21.a)
+      printValues(b = k21.b)
+      printValues(a = k21.a)
+      printValues()
+
+      k22 = K2(x = 5,y = "D")
+      printValues(k22.a, k22.b)
+      printValues(a = k22.a, b = k22.b)
+      printValues(b = k22.b, a = k22.a)
+      printValues(b = k22.b, a = k22.a)
+      printValues(b = k22.b)
+      printValues(a = k22.a)
+      printValues()
+
+      k23 = K2(y = "E", x = 6)
+      printValues(k23.a, k23.b)
+      printValues(a = k23.a, b = k23.b)
+      printValues(b = k23.b, a = k23.a)
+      printValues(b = k23.b, a = k23.a)
+      printValues(b = k23.b)
+      printValues(a = k23.a)
+      printValues()
+
+      k24 = K2(y = "F")
+      printValues(k24.a, k24.b)
+      printValues(a = k24.a, b = k24.b)
+      printValues(b = k24.b, a = k24.a)
+      printValues(b = k24.b, a = k24.a)
+      printValues(b = k24.b)
+      printValues(a = k24.a)
+      printValues()
+
+      k25 = K2(x = 8)
+      printValues(k25.a, k25.b)
+      printValues(a = k25.a, b = k25.b)
+      printValues(b = k25.b, a = k25.a)
+      printValues(b = k25.b, a = k25.a)
+      printValues(b = k25.b)
+      printValues(a = k25.a)
+      printValues()
