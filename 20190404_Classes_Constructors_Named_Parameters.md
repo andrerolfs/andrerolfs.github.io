@@ -133,3 +133,75 @@ Here I compare these aspects :
           printValues( b = k26.b)
           printValues()
       }
+
+## Swift
+
+* Swift supports multiple constructors with the name init, called initializers
+* Both constructors and functions support real named parameters
+* Both constructors and functions support default values
+* Both constructors and functions demand that the order of named arguments may not be changed
+* Swift supports unnamed arguments (underscore operator), I have not analyzed this here
+* When using named parameters, you must use them, even if there is no other initializer as alternative available
+* Swift supports different initializers with different parameters, same argument number and default values, I have not analyzed this here
+
+      class K2 {
+          let a : Int
+          let b : String
+
+          init (x : Int = 99, y : String = "Z") {
+              a = x
+              b = y
+          }
+
+          init (q : Bool) {
+              if (q) {
+                  a = 7
+                  b = "U"
+              } else {
+                  a = 9
+                  b = "V"
+              }
+          }
+      }
+
+      func printValues(a : Int = 0, b : String = "a") {
+          print("values : ")
+          print(a)
+          print(b)
+          print("\n")
+      }
+
+      let k20a = K2(q:true)
+      printValues( a : k20a.a, b : k20a.b)
+      let k20b = K2(q:false)
+      printValues( a : k20b.a, b : k20b.b)
+
+      let k21 = K2( x : 1, y : "A")
+      // printValues( k21.a, k21.b) is forbidden due to missing argument names
+      printValues( a : k21.a, b : k21.b)
+      // printValues( b : k21.b, a : k21.a) is forbidden due to argument order
+      printValues( a : k21.a)
+      printValues( b : k21.b)
+      printValues()
+
+      let k22 = K2( y : "B")
+      printValues( a : k22.a, b : k22.b)
+      printValues( a : k22.a)
+      printValues( b : k22.b)
+      printValues()
+
+      // let k23 = K2( b : "C", a : 3) is forbidden due to argument order
+
+      let k24 = K2( x : 4)
+      printValues( a : k24.a, b : k24.b)
+      printValues( a : k24.a)
+      printValues( b : k24.b)
+      printValues()
+
+      // let k25 = K2(5) is forbidden due to missing argument name
+
+      let k26 = K2( x : 6)
+      printValues( a : k26.a, b : k26.b)
+      printValues( a : k26.a)
+      printValues( b : k26.b)
+      printValues()
