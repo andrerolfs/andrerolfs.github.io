@@ -4,7 +4,7 @@
 
 I have read or heard these books or series of books and can only suggest to read them. 
 
-Thiis list comes in no specific order, all of these books are great :
+This list comes in no specific order, all of these books are great :
 
 1. Jim Butcher - The Dresden Files - A mage in Chicago
 2. Stieg Larsson & David Lagercrantz - The Millenium Series - A hacker girl fighting the world
