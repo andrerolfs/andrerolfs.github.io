@@ -1,7 +1,2 @@
 * [daily noise - My Blog](https://andrerolfs.github.io/dailynoise.html)
-* [My Topics](https://andrerolfs.github.io/topics.html)
-* [htmlframework](https://github.com/andrerolfs/htmlframework)
-* [genericdatabase](https://andrerolfs.github.io/genericdatabase.html)
-* [Raspberry Pi / Retropie](https://andrerolfs.github.io/raspberrypi.html)
-* [Wartbar / CISystem](http://www.wartbar.de/topic_CISYSTEM.html)
-* [project summary](https://andrerolfs.github.io)
+* [continuous noise - My Projects](https://andrerolfs.github.io)
