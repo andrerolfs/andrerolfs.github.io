@@ -5,28 +5,31 @@
 This is how I have setup and configured my Mosquitto server running on Raspbian Buster lite.
 
 1. write the Raspbian Buster lite image with [win32diskimager](https://sourceforge.net/projects/win32diskimager/) to the SDHC card
-2. configure the Raspbian with rasp-config like I have documented [here](https://andrerolfs.github.io/20170426_Raspberry_Pi_raspi-config.html)
-3. update the Raspbian with
+2. configure the Raspbian with raspi-config like I have documented [here](https://andrerolfs.github.io/20170426_Raspberry_Pi_raspi-config.html)
+3. update the Raspbian packets
 
         sudo apt-get update
+        
+4. perform the update
+
         sudo apt-get dist-upgrade
-   
-4. install the mosquitto server according to [App Code Labs
+                
+5. install the mosquitto server according to [App Code Labs
  Introduction to IoT: Build an MQTT Server Using Raspberry Pi](https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
-5. verify that `/etc/mosquitto/mosquitto.conf` contains the line
+6. verify that `/etc/mosquitto/mosquitto.conf` contains the line
 
         include_dir /etc/mosquitto/conf.d
 
-6. create a `conf.d`directory in `/etc/mosquitto/`
+7. create a `conf.d`directory in `/etc/mosquitto/`
 
         mkdir /etc/mosquitto/conf.d
 
-7. create a password for a user with the name `user` in `/etc/mosquitto/conf.d/`
+8. create a password for a user with the name `user` in `/etc/mosquitto/conf.d/`
 
         sudo mosquitto_passwd -c mosquitto_passwordfile_user user
    
-8. create the file `/etc/mosquitto/conf.d/mosquitto.conf` with this content :
+9. create the file `/etc/mosquitto/conf.d/mosquitto.conf` with this content :
 
         allow_anonymous false
         password_file /etc/mosquitto/conf.d/mosquitto_passwordfile_user
