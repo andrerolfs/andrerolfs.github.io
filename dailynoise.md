@@ -4,7 +4,7 @@
 
 Here I share my experiences about small problems for which I have found solutions working for me.
 
-[20200331 Mosquitto Pi Setup](20200331_Mosquitto_Pi_Setup.md)
+[20200331 Mosquitto Pi Setup](20200331_Mosquitto_Pi_Setup.md)<br/><br/>
 [20200321 My MQTT Tooling And Setup](20200321_My_MQTT_Tooling_And_Setup.md)<br/><br/>
 [20200321 Why MQTT](20200321_Why_MQTT.md)<br/><br/>
 [20200318 MQTT Groovy Example](20200318_MQTT_Groovy_Example.md)<br/><br/>
