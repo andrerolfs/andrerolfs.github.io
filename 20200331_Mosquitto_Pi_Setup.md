@@ -12,8 +12,8 @@ This is how I have setup and configured my Mosquitto server running on Raspbian 
         
 4. perform the update
 
-        sudo apt-get dist-upgrade
-                
+        sudo apt-get dist-upgrade
+        
 5. install the mosquitto server according to [App Code Labs
  Introduction to IoT: Build an MQTT Server Using Raspberry Pi](https://appcodelabs.com/introduction-to-iot-build-an-mqtt-server-using-raspberry-pi)
 
