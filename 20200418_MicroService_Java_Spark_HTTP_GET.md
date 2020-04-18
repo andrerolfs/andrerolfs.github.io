@@ -2,7 +2,7 @@
 
 # 20200418 MicroService Java Spark HTTP GET
 
-For testing the Java Spark framework I have implemented a small example with a HTTP GET handler.
+For testing the Java [Spark](http://sparkjava.com) framework I have implemented a small example with a HTTP GET handler.
 
 FYI : Yes, I know the [HTTP Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) 
 and that GET requests shall not store anything or change the state of the service.
