@@ -4,6 +4,8 @@
 
 Here I share my experiences about small problems for which I have found solutions working for me.
 
+[20200418 Swift URLSession HTTP GET CommandLine Application](20200418_Swift_URLSession_HTTP_GET_CommandLine_Application.md)<br/><br/>
+[20200418 MicroService Java Spark HTTP GET](20200418_MicroService_Java_Spark_HTTP_GET.md)<br/><br/>
 [20200331 Mosquitto Pi Setup](20200331_Mosquitto_Pi_Setup.md)<br/><br/>
 [20200321 My MQTT Tooling And Setup](20200321_My_MQTT_Tooling_And_Setup.md)<br/><br/>
 [20200321 Why MQTT](20200321_Why_MQTT.md)<br/><br/>
