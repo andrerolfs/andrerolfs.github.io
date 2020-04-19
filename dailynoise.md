@@ -4,6 +4,8 @@
 
 Here I share my experiences about small problems for which I have found solutions working for me.
 
+
+[20200419 MicroService POST And GET In Java Spark Tested With Swift CommandLine Application](20200419_MicroService_POST_And_GET_In_Java_Spark_Tested_With_Swift_CommandLine_Application.md)<br/><br/>
 [20200418 Swift URLSession HTTP GET CommandLine Application](20200418_Swift_URLSession_HTTP_GET_CommandLine_Application.md)<br/><br/>
 [20200418 MicroService Java Spark HTTP GET](20200418_MicroService_Java_Spark_HTTP_GET.md)<br/><br/>
 [20200331 Mosquitto Pi Setup](20200331_Mosquitto_Pi_Setup.md)<br/><br/>
