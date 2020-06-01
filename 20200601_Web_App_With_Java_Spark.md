@@ -2,7 +2,7 @@
 
 # 20200601 Web App With Java Spark
 
-I have spend some time on implementing a small web app using the Java Spark framework.
+I have spent some time on implementing a small web app using the Java Spark framework.
 
 The idea is to represent the status of different applications on the same web page 
 and to be able to configure how many columns this page will display.
