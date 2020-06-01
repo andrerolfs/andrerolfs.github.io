@@ -4,6 +4,7 @@
 
 Here I share my experiences about small problems for which I have found solutions working for me.
 
+[20200601 Web App With Java Spark](https://github.com/andrerolfs/andrerolfs.github.io/blob/master/20200601_Web_App_With_Java_Spark.md)<br/><br/>
 [20200501 Jenkins Groovy Init Script](20200501_Jenkins_Groovy_Init_Script.md)<br/><br/>
 [20200419 MicroService POST And GET In Java Spark Tested With Swift CommandLine Application](20200419_MicroService_POST_And_GET_In_Java_Spark_Tested_With_Swift_CommandLine_Application.md)<br/><br/>
 [20200418 Swift URLSession HTTP GET CommandLine Application](20200418_Swift_URLSession_HTTP_GET_CommandLine_Application.md)<br/><br/>
