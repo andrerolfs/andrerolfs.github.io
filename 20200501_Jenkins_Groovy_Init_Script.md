@@ -2,7 +2,7 @@
 
 # 20200501 Jenkins Groovy Init Script
 
-I have spend some hours on learning how to create an `init.groovy` script for Jenkins to
+I have spent some hours on learning how to create an `init.groovy` script for Jenkins to
 
 1. create a user
 2. generate an API token for that user
