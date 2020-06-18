@@ -4,6 +4,8 @@
 
 Here I simply list links I where I cannot add much more to the content, I could need again and where I make comments for myself.
 
+## 20200618
+
 * [21 CMD Commands All Windows Users Should Know](https://helpdeskgeek.com/help-desk/21-cmd-commands-all-windows-users-should-know/#)<br>
 * [Command Prompt (CMD) - 8 network commands you should know](https://www.digitalcitizen.life/command-prompt-advanced-networking-commands)
 
@@ -32,7 +34,7 @@ I need to make some web pages more dynamic. The comparison angular vs jquery bri
 
 My current understanding is, it depends if you want to have a spring boot service with thymeleaf as html framework where jquery can improve the Javascript part or if you want to use angular instead.
 
-[How to setup your Core Data OSX application](https://dev.mikamai.com/2015/07/01/how-to-setup-your-core-data-osx-application/)
+* [How to setup your Core Data OSX application](https://dev.mikamai.com/2015/07/01/how-to-setup-your-core-data-osx-application/)
 
 Comments :
 
