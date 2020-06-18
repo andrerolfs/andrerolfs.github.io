@@ -30,6 +30,6 @@ Comments :
 
 I need to make some web pages more dynamic. The comparison angular vs jquery brings it to the point that jquery is a library good to make the javascript code of web pages simpler, smarter, but which should not be used if you rather need a complete framework like angular, to create a complete web application.
 
-My current understanding is, it depends if you want to have a spring boot service with thymeleaf as html framework where jquery can improve the Javascript part or if you want to use angular istead.
+My current understanding is, it depends if you want to have a spring boot service with thymeleaf as html framework where jquery can improve the Javascript part or if you want to use angular instead.
 
 
