@@ -10,7 +10,8 @@ Visit my homepage [wartbar.de](http://www.wartbar.de) for information about me a
 
 [white noise - My commented links page](whitenoise.md)
 
-&emsp; Here I simply list links I where I cannot add much more to the content, I could need again and where I make comments for myself.
+&emsp; Here I simply list links I where I cannot add much more to the content, 
+&emsp; I could need again and where I make comments for myself.
 
 [MQTT](mqtt.md)
 
