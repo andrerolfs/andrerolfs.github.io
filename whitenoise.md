@@ -24,7 +24,7 @@ My idea is to have a view in small web service which is reloaded if a get reques
 
 Comments :
 
-I want to learn how to connect a different microservices all available on different URLs but through the same IP address and port.
+I want to learn how to connect different microservices all available on different URLs but through the same IP address and port.
 
 * [Angular vs JQuery](https://www.educba.com/angular-vs-jquery/)
 
