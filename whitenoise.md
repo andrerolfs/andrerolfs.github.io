@@ -32,4 +32,11 @@ I need to make some web pages more dynamic. The comparison angular vs jquery bri
 
 My current understanding is, it depends if you want to have a spring boot service with thymeleaf as html framework where jquery can improve the Javascript part or if you want to use angular instead.
 
+[How to setup your Core Data OSX application](https://dev.mikamai.com/2015/07/01/how-to-setup-your-core-data-osx-application/)
+
+Comments :
+
+I admit, I am no fan of something so hard coupled as Core Data and it makes it even harder for me if I need to create an IOS application only to look into the Core Data coding.
+
+My idea is to instead write an OSX application using Core Data.
 
