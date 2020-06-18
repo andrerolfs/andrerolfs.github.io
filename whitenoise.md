@@ -23,3 +23,13 @@ My idea is to have a view in small web service which is reloaded if a get reques
 Comments :
 
 I want to learn how to connect a different microservices all available on different URLs but through the same IP address and port.
+
+* [Angular vs JQuery](https://www.educba.com/angular-vs-jquery/)
+
+Comments :
+
+I need to make some web pages more dynamic. The comparison angular vs jquery brings it to the point that jquery is a library good to make the javascript code of web pages simpler, smarter, but which should not be used if you rather need a complete framework like angular, to create a complete web application.
+
+My current understanding is, it depends if you want to have a spring boot service with thymeleaf as html framework where jquery can improve the Javascript part or if you want to use angular istead.
+
+
