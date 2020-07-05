@@ -4,6 +4,26 @@
 
 Here I simply list links I where I cannot add much more to the content, I could need again and where I make comments for myself.
 
+## 20200705
+
+* [Equals, Is, CompareTo, and the Groovy Identity Operator](https://objectpartners.com/2018/11/07/equals-is-compareto-and-the-groovy-identity-operator/)
+
+Comments :
+
+In **Groovy** `==` calls `compareTo` if the class of the compared class implements the interface `Comparable`.
+If the class does not implement `Comparable`, `==` calls `equals`.
+
+To autmatically add the `equals()` function, you can use `@EqualsAndHashCode` to annotate the class, then `equals()` will be implemented to compare the values of the class members.
+
+* [Why to use @Override annotation in Java/Groovy](https://beginnersbook.com/2014/07/override-annotation-in-java/)
+* [How object defines/implements "equals()"](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
+
+Comments :
+
+In bothe **Java** and **Groovy** it is the same reason : You should use `@Overrides`so the compiler can check you override an existing function with the same signature. If you fail in this, your function will be a new function but not overriding anything, so your new function will not have the use you aim at.
+
+I use `@Overrides` to check I correctly override `boolean equals(Object obj)` where my first idea was to use the class type of the class where I implement it and not `Object`.
+
 ## 20200618
 
 * [21 CMD Commands All Windows Users Should Know](https://helpdeskgeek.com/help-desk/21-cmd-commands-all-windows-users-should-know/#)<br>
