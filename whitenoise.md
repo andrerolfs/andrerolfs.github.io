@@ -4,6 +4,16 @@
 
 Here I simply list links I where I cannot add much more to the content, I could need again and where I make comments for myself.
 
+## 20200706
+
+* [Groovy : Getters and Setters](https://groovy-lang.org/style-guide.html#_getters_and_setters)
+
+Comments :
+
+1. `x.y = 5`calls `x.setY(5)`
+2. it is not needed to have a variable `y`, `setY()` can write the value where ever you need to have it
+3. only implementing `getY()` without `setY()` and without declaring a variable `y` makes `y`readonly
+
 ## 20200705
 
 * [Equals, Is, CompareTo, and the Groovy Identity Operator](https://objectpartners.com/2018/11/07/equals-is-compareto-and-the-groovy-identity-operator/)
