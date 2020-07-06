@@ -11,7 +11,7 @@ Here I simply list links I where I cannot add much more to the content, I could 
 Comments :
 
 1. `x.y = 5`calls `x.setY(5)`
-2. it is not needed to have a variable `y`, `setY()` can write the value where ever you need to have it
+2. it is not needed to have a variable `y`, `setY()` can write the value where ever you need to have it and you can still use `x.y = 5`
 3. only implementing `getY()` without `setY()` and without declaring a variable `y` makes `y`readonly
 
 ## 20200705
