@@ -20,9 +20,29 @@ To autmatically add the `equals()` function, you can use `@EqualsAndHashCode` to
 
 Comments :
 
-In bothe **Java** and **Groovy** it is the same reason : You should use `@Overrides`so the compiler can check you override an existing function with the same signature. If you fail in this, your function will be a new function but not overriding anything, so your new function will not have the use you aim at.
+In bothe **Java** and **Groovy** it is the same reason : You should use `@Override`so the compiler can check you override an existing function with the same signature. If you fail in this, your function will be a new function but not overriding anything, so your new function will not have the use you aim at.
 
-I use `@Overrides` to check I correctly override `boolean equals(Object obj)` where my first idea was to use the class type of the class where I implement it and not `Object`.
+I use `@Override` to check I correctly override `boolean equals(Object obj)` :
+
+    class X {
+    
+        @Override
+        boolean equals(Object other) {
+            X o = (X)other
+            return this.equals(o)
+        }
+    }
+
+I use `@Override` to check I correctly override `int CompareTo(X obj)` :
+
+    @EqualsAndHashCode
+    class X implements Comparable<X> {
+    
+        @Override
+        int compareTo(X other) {
+            return this.equals(x) ? 1 : 0
+        }
+    }
 
 ## 20200618
 
