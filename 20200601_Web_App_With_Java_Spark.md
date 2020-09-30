@@ -9,7 +9,6 @@ and to be able to configure how many columns this page will display.
 
 This what it currently looks like :
 
-<img src="https://www.dropbox.com/s/vuwoaj57ingebnr/status3row.jpeg?raw=1" alt="status monitor with 3 rows"><br/>
 <br/>
 <img src="https://www.dropbox.com/s/yb8igkecy0617lb/status4row.jpeg?raw=1" alt="status monitor with 4 rows"><br/>
 <br/>
