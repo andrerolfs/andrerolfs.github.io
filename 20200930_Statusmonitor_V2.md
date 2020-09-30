@@ -10,4 +10,4 @@ A lot is still missing, but the main feature, displaying properties in colored s
 
 Please find my sources here :
 
-https://github.com/andrerolfs/statusmonitor
+[https://github.com/andrerolfs/statusmonitor](https://github.com/andrerolfs/statusmonitor)
