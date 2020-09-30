@@ -4,6 +4,7 @@
 
 Here I share my experiences about small problems for which I have found solutions working for me.
 
+[20200930 Statusmonitor V2](20200930_Statusmonitor_V2.md)<br/><br/>
 [20200715 Spring Boot Status Monitor](20200715_Spring_Boot_Status_Monitor.md)<br/><br/>
 [20200601 Web App With Java Spark](20200601_Web_App_With_Java_Spark.md)<br/><br/>
 [20200501 Jenkins Groovy Init Script](20200501_Jenkins_Groovy_Init_Script.md)<br/><br/>
